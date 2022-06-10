@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    background-color: #4E001C;
+}
+
+div#interface {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+}
+
+div#interface header#cabecalho {
+    background: url("../photos/pexels-lisa-1083822.jpg");
+    height: 400px;
+    display: block;
+}
+
+div#interface header#cabecalho nav#navigation {
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 1125px;
+    margin-left: -20px;
+}
+
+div#interface header#cabecalho nav#navigation ul {
+    list-style: none;
+}
+
+div#interface header#cabecalho nav#navigation li {
+    display: inline-block;
+    background-color: #B7B5B3;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+div#interface header#cabecalho nav#navigation li:hover {
+    background-color: #464442;
+}
+
+div#interface header#cabecalho nav#navigation a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+div#interface header#cabecalho nav#navigation a:hover {
+    color: #FFFFFF;
+}
+
+div#interface header#cabecalho div#user-icon {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 580px;
+    margin-bottom: 0px;
+}
+
+div#interface header#cabecalho div#user-icon img {
+    border: 5px solid #DD1C1A;
+    box-shadow: 1px 1px 10px #B7B5B3;
+}
+
+div#interface header#cabecalho div#ud {
+    position: relative;
+    top: 300px;
+    margin-top: 0px;
+}
+
+div#interface header#cabecalho div#ud h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 50px #B7B5B3;
+}
+
+div#interface header#cabecalho div#ud h2 {
+    text-align: center;
+    color: rgb(252, 149, 32);
+    margin-top: 0px;
+    text-shadow: 1px 1px 50px #B7B5B3;
+}
+
+div#interface header#cabecalho div#ud a {
+    text-decoration: none;
+    color: rgb(202, 18, 80);
+}
+
+div#interface div.conteudo {
+    padding: 20px;
+}
+
+div#interface div.conteudo div.quote {
+    background: #FFE2CF;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+div#interface footer {
+    border-top: 1px dashed rgba(0, 0, 0, 0.5);
+    color: #000000;
+    text-align: center;
+}
